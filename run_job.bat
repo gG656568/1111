@@ -3,7 +3,7 @@ cd %~dp0
 cd..
 cd job
 echo ------整体作业，支持批量作业------
-echo 当前时间作业 conda run -n gupiao python execute_daily_job.py
+conda run -n gupiao python execute_daily_job.py
 conda run -n gupiao python execute_daily_job.py 2023 - 03 - 01
 conda run -n gupiao python execute_daily_job.py 2023 - 03 - 01,2023 - 03 - 02
 conda run -n gupiao python execute_daily_job.py 2023 - 03 - 01 2023 - 03 - 21
